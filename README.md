@@ -59,6 +59,24 @@ It took 4 iterations to reach 1
 
 
 ## Co-balancing Numbers
+A positive number `n` is a co-balancing number if the sum of numbers from `1` to `n` is equal to the sum of numbers `n+1` to `n+r` where `r` is a positive integer. 
+For example, `14` is a co-balancing number with `r` of `6`. That means the numbers `1` through `14` sum to the same amount as the next six integers after `14` (`15` through `20`). In other words,
+
+$$\underbrace{(1+2+3+...+13+14)}_{105}=\underbrace{(15+16+...+19+20)}\_{105}$$
+
+Write a program named `cobalancing_numbers.py` that takes in an integer value `n` from the user and determines if it is a co-balancing number. If `n` is a co-balancing number, output the corresponding value of `r`. Do **NOT** use any containers like lists, tuples, sets, and dictionaries, or the `sum()` function. You **MUST** use a loop. Format your output as shown below.
+
+Example output (using input `14`):
+```
+Enter a value for n: 14
+14 is a co-balancing number with r=6
+```
+
+Example output (using input `102`):
+```
+Enter a value for n: 102
+102 is not a co-balancing number
+```
 
 
 ## Frequently Asked Questions
