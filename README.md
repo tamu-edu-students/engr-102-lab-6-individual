@@ -1,7 +1,7 @@
 # ENGR 102 Lab Topic 6 (individual)
 
 ## Activities
-There are four deliverables for this individual assignment. Please submit the files described below to Gradescope. Check out the [Frequently Asked Questions](#frequently-asked-questions) below. **Please include the individual header in your ~.py file.**
+There are four deliverables for this individual assignment. Please submit the files described below to Gradescope. Check out the [Frequently Asked Questions](#frequently-asked-questions) below. **Please include the individual header in your ~.py files.**
 
 1. [Howdy Whoop](#howdy-whoop)
 2. [Computing Sums](#computing-sums)
@@ -9,6 +9,19 @@ There are four deliverables for this individual assignment. Please submit the fi
 4. [Co-balancing Numbers](#co-balancing-numbers)
 
 ## Howdy Whoop
+Write a program named `howdy_whoop.py` that takes as input from the user two positive integers. Output the numbers `1` to `100`, each on its own line, unless the number is evenly divisible by one or both of the integers entered by the user. If the number is evenly divisible by the first integer, print `Howdy`. If it's evenly divisible by the second integer, print `Whoop`. If it's evenly divisible by both, print `Howdy Whoop`. Format your output as shown below.
+
+Example output (using inputs `2` and `3`):
+```
+Enter an integer: 2
+Enter another integer: 3
+1
+Howdy
+Whoop
+...
+Whoop
+Howdy
+```
 
 
 ## Computing Sums
