@@ -43,6 +43,19 @@ The sum of all integers from 29 to 102 is 4847
 
 
 ## Juggler Sequence
+The Juggler sequence (https://en.wikipedia.org/wiki/Juggler_sequence) produces a sequence of integers using the following procedure. Given a number `n`, if `n` is even then the next number is the floor of the square root of `n`. If `n` is odd, then the next number is the floor of `n^(3/2)`. The Juggler sequence ends when `n` reaches `1`. 
+
+As an example, if you start with the number `7`, then the terms of the sequence will be: `7, 18, 4, 2, 1`.
+
+Write a program named `juggler_sequence.py` that takes in a positive integer from the user, and computes the Juggler sequence, printing out all the numbers in the sequence, followed by a line stating how many iterations it took to reach the value `1`. Format your output as shown below.
+
+Example output (using input `7`):
+```
+Enter a positive integer: 7
+The Juggler sequence starting at 7 is:
+7, 18, 4, 2, 1
+It took 4 iterations to reach 1
+```
 
 
 ## Co-balancing Numbers
