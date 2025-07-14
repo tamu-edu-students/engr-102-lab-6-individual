@@ -25,6 +25,21 @@ Howdy
 
 
 ## Computing Sums
+Write a program named `computing_sums.py` that takes as input from the user two integers and calculates the sum of all integers between them, inclusive. Do **NOT** use any containers like lists, tuples, sets, and dictionaries, or the `sum()` function. You **MUST** use a loop. Format your output as shown below.
+
+Example output (using inputs `3` and `10`):
+```
+Enter an integer: 3
+Enter another integer: 10
+The sum of all integers from 3 to 10 is 52
+```
+
+Example output (using inputs `29` and `102`):
+```
+Enter an integer: 29
+Enter another integer: 102
+The sum of all integers from 29 to 102 is 4847
+```
 
 
 ## Juggler Sequence
