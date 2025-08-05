@@ -43,7 +43,7 @@ The sum of all integers from 29 to 102 is 4847
 
 
 ## Juggler Sequence
-The Juggler sequence (https://en.wikipedia.org/wiki/Juggler_sequence) produces a sequence of integers using the following procedure. Given a number `n`, if `n` is even then the next number is the floor of the square root of `n`. If `n` is odd, then the next number is the floor of `n^(3/2)`. The Juggler sequence ends when `n` reaches `1`. 
+The [Juggler sequence](https://en.wikipedia.org/wiki/Juggler_sequence) produces a sequence of integers using the following procedure. Given a number `n`, if `n` is even then the next number is the floor of the square root of `n`. If `n` is odd, then the next number is the floor of `n^(3/2)`. The Juggler sequence ends when `n` reaches `1`. 
 
 As an example, if you start with the number `7`, then the terms of the sequence will be: `7, 18, 4, 2, 1`.
 
